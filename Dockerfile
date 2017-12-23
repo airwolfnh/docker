@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER MyName "aa@example.com"
+MAINTAINER MyOtherName "aa@example.com"
 RUN apt-get update
 RUN apt-get install -y nginx
 RUN echo 'Hi, I am in your container' \
